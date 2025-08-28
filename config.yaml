@@ -1,0 +1,16 @@
+collection:
+  interval: 1  # seconds between samples
+  duration: 60  # total collection time in seconds
+
+model:
+  input_dim: 10  # number of features
+  hidden_dim: 32
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+
+detection:
+  threshold: 0.05  # anomaly threshold (reconstruction error)
+
+visualization:
+  output_dir: ./plots
