@@ -46,32 +46,7 @@ python src/main.py --collect 300 --train --detect --visualize
 
 ## Project Structure
 
-LinAnomalyDetect/
-├── README.md               # Project overview and usage
-├── requirements.txt        # Python dependencies
-├── setup.py                # For packaging the project
-├── config.yaml             # Configuration file
-├── src/                    # Source code
-│   ├── init.py
-│   ├── main.py             # Entry point and CLI
-│   ├── data_collector.py   # System metrics collection
-│   ├── preprocessor.py     # Data cleaning and normalization
-│   ├── model.py            # PyTorch autoencoder model
-│   ├── detector.py         # Anomaly detection logic
-│   ├── visualizer.py       # Plotting and visualization
-│   └── utils.py            # Utility functions (logging, etc.)
-├── tests/                  # Unit tests
-│   ├── init.py
-│   ├── test_data_collector.py
-│   ├── test_preprocessor.py
-│   ├── test_model.py
-│   └── test_detector.py
-├── scripts/                # Helper scripts
-│   └── setup.sh            # Bash setup script
-├── docs/                   # Documentation
-│   └── architecture.md     # Detailed architecture
-└── models/                 # Saved models (generated at runtime)
-└── autoencoder.pth     # Example placeholder (create after training)
+https://github.com/AmSh4/LinAnomalyDetect/blob/main/Structure.md
 
 
 
@@ -79,7 +54,8 @@ LinAnomalyDetect/
 Contributions are welcome! Fork the repo, create a branch, and submit a PR. Focus on improving model accuracy, adding more metrics, or integrating with containers/Kubernetes.
 
 ## License
-MIT License. See LICENSE for details. (Add a LICENSE file if desired.)
+MIT License. See LICENSE for details. 
 
 ## Acknowledgments
+
 Built with open-source libraries: PyTorch, Pandas, Matplotlib. Inspired by Linux kernel monitoring needs in enterprise environments.
